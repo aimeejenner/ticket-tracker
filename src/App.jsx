@@ -5,8 +5,7 @@ import Employee from './components/Employee/Employee';
 
 const App = () => {
   return (
-    <Employee />,
-    <Counter />
+      <Employee />
   );
 }
 

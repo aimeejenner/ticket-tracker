@@ -5,10 +5,10 @@ const Counter = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="counter-container">
-      <button onClick={() => setCount(count - 1)}>-</button>
+    <div className={styles.counterContainer}>
+      <button className={styles.button} onClick={() => setCount(count - 1)}>-</button>
       <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <button className={styles.button} onClick={() => setCount(count + 1)}>+</button>
     </div>
   )
 }

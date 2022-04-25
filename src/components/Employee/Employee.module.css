@@ -1,5 +1,8 @@
-.employee-container {
+.employeeContainer {
   height: 400px;
   width: 200px;
   border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from "./Employee.module.scss";
+import Counter from '../Counter/Counter';
 
 
 const Employee = () => {
   return (
-    <div className="employee-container">
+    <div className={styles.employeeContainer}>
         <h1>Employee name</h1>
+        <Counter />
     </div>
   )
 }
