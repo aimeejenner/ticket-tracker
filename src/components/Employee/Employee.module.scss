@@ -1,8 +1,24 @@
 .employeeContainer {
     height: 400px;
-    width: 200px;
-    border: 1px solid green;
+    width: 275px;
+    background-color: rgb(4, 122, 83);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+
+    .name {
+        font-size: 32px;
+        color: #fff;
+    }
+
+    .role {
+        font-size: 20px;
+        color: #fff;
+    }
 }
+

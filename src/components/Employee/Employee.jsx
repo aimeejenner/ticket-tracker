@@ -11,8 +11,8 @@ const Employee = (props) => {
 
   return (
     <div className={styles.employeeContainer}>
-        <h1>{name}</h1>
-        <h2>{role}</h2>
+        <h1 className={styles.name}>{name}</h1>
+        <h2 className={styles.role}>{role}</h2>
         <Counter />
     </div>
   )
