@@ -3,10 +3,16 @@ import styles from "./Employee.module.scss";
 import Counter from '../Counter/Counter';
 
 
-const Employee = () => {
+const Employee = (props) => {
+    const {
+        name,
+        role,
+      } = props.employee;
+
   return (
     <div className={styles.employeeContainer}>
-        <h1>Employee name</h1>
+        <h1>{name}</h1>
+        <h2>{role}</h2>
         <Counter />
     </div>
   )

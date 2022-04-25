@@ -6,11 +6,13 @@ import employees from "./data/employees";
 
 const App = () => {
   const getEmployeeJsx = (employee) => (
-    <Employee />
+    <div className={styles.employeeContainer} key={employee.id}>
+      <Employee employee={employee} />
+    </div>
   )
 
   return (
-      <Employee employee={employees[1]} />
+    <div className={styles.content}>{employees.map(getEmployeeJsx)}</div>
   );
 }
 
