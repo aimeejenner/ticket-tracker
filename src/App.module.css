@@ -2,7 +2,16 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+.header {
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+  background-color: #d3d3d3;
+}
+
 .content {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  background-color: #d3d3d3;
 }

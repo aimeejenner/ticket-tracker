@@ -12,7 +12,10 @@ const App = () => {
   )
 
   return (
-    <div className={styles.content}>{employees.map(getEmployeeJsx)}</div>
+    <>
+      <h1 className={styles.header}>Ticket Tracker</h1>
+      <div className={styles.content}>{employees.map(getEmployeeJsx)}</div>
+    </>
   );
 }
 
