@@ -4,7 +4,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 10px;
-  background-color: #aafddd;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -12,7 +12,7 @@
 }
 
 .button {
-  background-color: #ddaafd;
+  background-color: #fa8072;
   margin: 0 25px;
   width: 40px;
   height: 40px;

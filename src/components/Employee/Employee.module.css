@@ -1,7 +1,7 @@
 .employeeContainer {
   height: 400px;
   width: 275px;
-  background-color: #047a53;
+  background-color: #0856cb;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   display: flex;
@@ -13,9 +13,9 @@
 }
 .employeeContainer .name {
   font-size: 32px;
-  color: #fff;
+  color: #ffffff;
 }
 .employeeContainer .role {
   font-size: 20px;
-  color: #fff;
+  color: #ffffff;
 }
